@@ -8,8 +8,8 @@ dependencies {
   compile gradleApi()
   compile localGroovy()
 
-  compile 'com.android.tools.build:gradle:1.5.0'
-  compile ('com.squareup:javapoet:1.7.0'){
+  compile 'com.android.tools.build:gradle:2.2.0'
+  compile ('com.github.square:javapoet:javapoet-1.8.0'){
     force = true
   }
   compile 'com.github.square.wire:wire-compiler:wire-2.2.0'
